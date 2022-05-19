@@ -1,5 +1,3 @@
-from asyncio.windows_events import NULL
-
 
 races = [
         [1, 'Dwarf', 3, 2],
@@ -14,7 +12,7 @@ races = [
         ]
 
 classes = [
-        [1, 'Barbarian', 1, '1d12', (12, 3), ], 
+        [1, 'Barbarian', 1,], 
         [2, 'Bard', 6, ], 
         [3, 'Cleric', 5],
         [4, 'Druid', 5],
@@ -56,26 +54,3 @@ skills = [
         [16, 'Stealth', 2],
         [17, 'Survival', 5]
 ]
-armor_types = [
-        [1, 'Light Armor', (1,2,3), 1, 1],
-        [2, 'Medium Armor',(4,5,6,7,8), 5, 1],
-        [3, 'Heavy Armor', (9,10,11,12), 10, 5],
-        [4, 'Shield', 13, NULL, NULL]
-]
-armor = [
-        [1, 'Padded', 5, NULL, 1, 8],
-        [2, 'Leather', 10, NULL, 0, 10],
-        [3, 'Studded Leather', 45, NULL, 0, 13],
-        [4, 'Hide', 10, NULL, 0, 12],
-        [5, 'Chain Shirt', 50, NULL, 0, 20],
-        [6, 'Scale Mail', 50, NULL, 1, 45],
-        [7, 'Breast Plate', 400, NULL, 0, 20],
-        [8, 'Half Plate', 750, NULL, 1, 40],
-        [9, 'Ring Mail', 30, NULL, 1, 40],
-        [10, 'Chain Mail', 75, 13, 1, 55],
-        [11, 'Splint', 200, 15, 1, 60],
-        [12, 'Plate', 1500, 15, 1, 65],
-        [13, 'Shield', 10, NULL, NULL, 6]
-]
-
-tools = []
