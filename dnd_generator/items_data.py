@@ -124,13 +124,16 @@ weapon_properties = [
     [6, 'Heavy'],
     [7, 'Reach'],
     [8, 'Special'],
-    [9, 'Versatile (1d10)']
-    [10, 'Versatile(1d8)']
+    [9, 'Versatile (1d10)'],
+    [10, 'Versatile(1d8)'],
     [11, 'Ammunition (range 80/320)'],
     [12, 'Ammunition (range 20/120)'],
     [13, 'Ammunition (range 25/100)'],
     [14, 'Ammunition (range 100/400'],
-    [15, 'Ammunition (range 150/600)']
+    [15, 'Ammunition (range 150/600)'],
+    [16, 'Loading'],
+    [17, 'Ammunition (range 30/120)'],
+    [18, 'Throw(range 5/15)']
 ]
 
 weapons = [
@@ -142,7 +145,40 @@ weapons = [
     [6, 'Light Hammer', 2.0, 1, 1, 2.0, (1, 3)],
     [7, 'Mace', 5.0, 1, 1, 2.0, NULL],
     [8, 'Quarterstaff', 0.2, 1, 2, 4.0, 10],
-    [9, 'Sickle', 1, 1, 1, 3, 2.0, 1]
-    [10, 'Spear', 1, 1, 2, 2, 3.0, (3, 10)]
+    [9, 'Sickle', 1, 1, 1, 3, 2.0, 1],
+    [10, 'Spear', 1, 1, 2, 2, 3.0, (3, 10)],
+    [11, 'Crossbow, light', 25, 1, 3, 2, 5.0, (11, 15, 5)],
+    [12, 'Dart', .01, 1, 1, 2, .25, (2, 3)],
+    [13, 'Shortbow', 25, 1, 2, 2, 2, (11, 5)],
+    [14, 'Sling', .1, 1, 1, 1, NULL, 17],
+    [15, 'Battleaxe', 10, 1, 3, 3, 4, 9],
+    [16, 'Flail', 10, 1, 3, 1, 1, NULL],
+    [17, 'Glaive', 20, 1, 4, 3, 6, (6, 7, 5)],
+    [18, 'Greataxe', 30, 1, 4, 3, 6, (6, 5)],
+    [19, 'Greatsword', 50, 2, 2, 2, 6, (6,5)],
+    [20, 'Halbard', 20, 1, 4, 3, 6, (7, 7, 5)],
+    [21, 'Lance', 20, 1, 5, 3, 6, (7, 8)],
+    [22, 'Longsword', 15, 1, 3, 3, 3, 9],
+    [23, 'Maul', 10, 2, 2, 1, 10, (6, 5)],
+    [24, 'Morningstar', 15, 1, 3, 2, 4, NULL],
+    [25, 'Pike', 5, 1, 4, 2, 18, (6, 7, 5)],
+    [26, 'Rapier', 25, 1, 3, 2, 2, 2],
+    [27, 'Scimitar', 25, 1, 2, 3, 3, (2, 1)],
+    [28, 'Shortsword', 10, 1, 2, 2, 2, (2, 1)],
+    [29, 'Trident', 5, 1, 2, 2, 4, (3, 10)],
+    [30, 'War Pick', 5, 1, 3, 2, 2, NULL],
+    [31, 'Warhammer', 15, 1, 3, 1, 2, 9],
+    [32, 'Whip', 2, 1, 1, 3, 3, (2, 7)],
+    [33, 'Blowgun', 10, 1, NULL, 2, 1, (13, 16)],
+    [34, 'Crossbow, hand', 75, 1, 2, 2, 3, (17, 1, 16)],
+    [35, 'Crossbow, heavy', 50, 1, 4, 2, 18, (14, 6, 5)],
+    [36, 'Longbow', 50, 1, 3, 2, 2, (15, 6, 5)],
+    [37, 'Net', 1, NULL, NULL, NULL, 3, (8, 18)]
+]
 
+weapon_types = [
+        [1, 'Simple Melee Weapons'],
+        [2, 'Simple Ranged Weapons'],
+        [3, 'Martial Melee Weapons'],
+        [4, 'Martial Ranged Weapons']
 ]
