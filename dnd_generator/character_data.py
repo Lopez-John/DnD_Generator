@@ -1,4 +1,7 @@
 
+from asyncio.windows_events import NULL
+
+
 races = [
         [1, 'Dwarf', 3, 2],
         [2, 'Elf', 2, 2],
@@ -12,8 +15,8 @@ races = [
         ]
 
 classes = [
-        [1, 'Barbarian', 1,], 
-        [2, 'Bard', 6, ], 
+        [1, 'Barbarian', 1, 12, 3, (1, 2, 4), (1, 2, 3, 4), NULL, (1, 3), (2, 4, 8, 11, 12, 18)], 
+        [2, 'Bard', 6, 3, 8, 3, (1,2)], 
         [3, 'Cleric', 5],
         [4, 'Druid', 5],
         [5, 'Fighter', (1, 2)],
@@ -38,19 +41,20 @@ ability_score = [
 skills = [
         [1, 'Acrobatics', 2],
         [2, 'Animal Handling' 5],
-        [3, 'Arcana', 4],
-        [4, 'Deception', 6],
-        [5, 'History', 4],
-        [6, 'Insight', 5],
-        [7, 'Intimidation', 6],
-        [8, 'Investigation', 4],
-        [9, 'Medicine', 5],
-        [10, 'Nature', 4],
-        [11, 'Perception', 5],
-        [12, 'Performance', 6],
-        [13, 'Persuasion', 6],
-        [14, 'Religion', 4],
-        [15, 'Slight of Hand', 2],
-        [16, 'Stealth', 2],
-        [17, 'Survival', 5]
+        [3, 'Arcana', 4]
+        [4, 'Athletics', 1],
+        [5, 'Deception', 6],
+        [6, 'History', 4],
+        [7, 'Insight', 5],
+        [8, 'Intimidation', 6],
+        [9, 'Investigation', 4],
+        [10, 'Medicine', 5],
+        [11, 'Nature', 4],
+        [12, 'Perception', 5],
+        [13, 'Performance', 6],
+        [14, 'Persuasion', 6],
+        [15, 'Religion', 4],
+        [16, 'Slight of Hand', 2],
+        [17, 'Stealth', 2],
+        [18, 'Survival', 5]
 ]
