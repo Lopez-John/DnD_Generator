@@ -11,31 +11,31 @@ races = [
         [6, 'Gnome', 4, 2],
         [7, 'Half-Elf', 6, 2],
         [8, 'Half-Orc', (1, 3), (2,1)],
-        [9, 'Tiefling', (4, 6), (1, 2)]
+        [9, 'Tiefling', (4, 6), (1,2)]
         ]
 
 classes = [
-        [1, 'Barbarian', 1, 12, 3, (1, 2, 4), (1, 2, 3, 4), NULL, (1, 3), (2, 4, 8, 11, 12, 18)], 
-        [2, 'Bard', 6, 3, 8, 3, (1,2)], 
-        [3, 'Cleric', 5],
-        [4, 'Druid', 5],
-        [5, 'Fighter', (1, 2)],
-        [6, 'Monk', (2, 5)],
-        [7, 'Paladin', (1, 6)],
-        [8, 'Ranger', (2, 5)],
-        [9, 'Rogue',2],
-        [10, 'Sorcerer', 6],
-        [11, 'Warlock', 6],
-        [12, 'Wizard', 4]
+        [1, 'Barbarian', 1, 12, (1,2,4)], 
+        [2, 'Bard', 6, 3, 8, 1], 
+        [3, 'Cleric', 5, 3, 8, (1,2,4)],
+        [4, 'Druid', 5, 3, 8, (1,2,4)],
+        [5, 'Fighter', (1,2), 4, 10, (1,2,3,4)],
+        [6, 'Monk', (2,5), 3, 8, NULL],
+        [7, 'Paladin', (1,6), 4, 10, (1,2,3,4)],
+        [8, 'Ranger', (2,5), 4, 10, (1,2,4)],
+        [9, 'Rogue', 2, 3, 8, 1],
+        [10, 'Sorcerer', 6, 2, 6, NULL],
+        [11, 'Warlock', 6, 3, 8, 1],
+        [12, 'Wizard', 4, 2, 6,  NULL]
         ]
 
 ability_score = [
-        [1, 'Strength', (1, 5, 7)],
-        [2, 'Dexterity', (6, 8, 9)],
+        [1, 'Strength', (1,5,7)],
+        [2, 'Dexterity', (6,8,9)],
         [3, 'Consitution', (1,2,3,4,5,6,7,8,9,10,11,12)],
         [4, 'Intelligence',12],
-        [5, 'Wisdom', (3, 4)],
-        [6, 'Charisma', (2, 10, 11)]
+        [5, 'Wisdom', (3,4)],
+        [6, 'Charisma', (2,10,11)]
         ]
 
 skills = [
